@@ -49,6 +49,9 @@ function ViewMessage() {
         <IonButton onClick={() => {
           router.push('/message/2', 'forward', 'replace', undefined, anim)
         }}>Message 2 (Replace)</IonButton>
+      <IonButton onClick={() => {
+          router.push('/message/2', 'forward', 'push', undefined, anim)
+        }}>Message 2 (Push)</IonButton>
       </IonContent>
     </IonPage>
   );
