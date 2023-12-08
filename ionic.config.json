@@ -1,0 +1,7 @@
+{
+  "name": "back-test",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
