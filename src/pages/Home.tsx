@@ -16,7 +16,6 @@ import {
 import './Home.css';
 
 const Home: React.FC = () => {
-
   const [messages, setMessages] = useState<Message[]>([]);
 
   useIonViewWillEnter(() => {

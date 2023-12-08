@@ -26,7 +26,7 @@ function ViewMessage() {
   const router = useIonRouter();
   
   const anim = () => {
-    console.log('ViewMessage animation used')
+    console.log('Animation used')
     return createAnimation();
   }
 
